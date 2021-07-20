@@ -22,9 +22,9 @@ const Hero = () => {
                             Between
                         </Post>
                         <Link href="/contact">
-                            <a>
+                            <BtnWrp>
                                 <Btn12 text={"GET IN TOUCH"} />
-                            </a>
+                            </BtnWrp>
                         </Link>
                     </Reveal>
                     <Social />
@@ -54,7 +54,7 @@ const Margin = styled.div`
     position: relative;
     width: 100%;
     max-width: 1200px;
-    padding: 20px;
+    padding: 10px;
 
     display: flex;
     align-items: center;
@@ -75,12 +75,11 @@ const Text = styled.div`
     h4 {
         z-index: 1;
     }
-
-    a {
-        display: inline-block;
-    }
 `;
 
+const BtnWrp = styled.a`
+    display: inline-block;
+`;
 const Pre = styled.h4`
     font-size: clamp(8px, 1vw, 24px);
     line-height: clamp(12px, 2vw, 30px);
@@ -114,8 +113,8 @@ const Name = styled.h2`
     display: block;
     overflow: hidden;
     margin: 0px 0px 10px;
-    font-size: clamp(25px, 6.5vw, 90px);
-    line-height: clamp(30px, 7vw, 100px);
+    font-size: clamp(20px, 6.5vw, 90px);
+    line-height: clamp(20px, 7vw, 100px);
 
     font-family: Neon Heavy;
     letter-spacing: clamp(1px, 0.3vw, 3px);

@@ -4,7 +4,6 @@ import Image from "next/image";
 import Layout from "../components/layout";
 
 import ContactSec from "../components/section/Contact";
-import Card from "../components/micro/flipCard";
 import GoogleMap from "../components/micro/google";
 import Shop from "../components/section/Shop";
 

@@ -90,11 +90,17 @@ const Block = styled(animated.div)`
 
     ${below.med`
     grid-template-columns: 1fr;
-    grid-template-rows: 120px repeat(4, 1fr );
+    grid-template-rows: 120px repeat(4, 1fr ) 100px;
     div:nth-of-type(1) {
     grid-row: span 2;
     a {
     padding-top: 120px;
+    }
+    }
+    div:nth-of-type(4) {
+    grid-row: span 2;
+    a {
+    padding-bottom: 120px;
     }
     }
 

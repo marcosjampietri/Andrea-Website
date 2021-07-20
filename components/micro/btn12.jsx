@@ -23,8 +23,8 @@ const Block = styled.div`
     position: relative;
     top: 0;
     left: 0;
-    width: 260px;
-    height: 80px;
+    width: 200px;
+    height: 60px;
     margin: 50px 0px;
     text-align: center;
 
@@ -101,11 +101,11 @@ const Btn12Styled = styled.button`
 
         :nth-child(1) {
             transform: rotateX(90deg);
-            transform-origin: 50% 50% -40px;
+            transform-origin: 50% 50% -30px;
         }
         :nth-child(2) {
             transform: rotateX(0deg);
-            transform-origin: 50% 50% -40px;
+            transform-origin: 50% 50% -30px;
             backface-visibility: hidden;
         }
     }

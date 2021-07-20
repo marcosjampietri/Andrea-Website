@@ -30,10 +30,10 @@ const Block = styled.div`
     position: relative;
     padding: 0 10px;
     flex: 1 1 481px;
+    z-index: 2;
 
     display: flex;
     flex-wrap: wrap;
-
     text-align: start;
 `;
 
@@ -50,7 +50,7 @@ const Text = styled.div`
     p,
     h4 {
         margin-bottom: 0.5em;
-        z-index: 1;
+        background: hsla(0, 0%, 100%, 0.3);
     }
 `;
 

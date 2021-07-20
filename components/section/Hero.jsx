@@ -29,9 +29,6 @@ const Hero = () => {
                     </Reveal>
                     <Social />
                 </Text>
-                {/* <Block>
-                    <img src="https://images.unsplash.com/photo-1533488069324-f9265c15d37f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3297&q=80" />
-                </Block> */}
             </Margin>
         </HeroSt>
     );
@@ -64,25 +61,6 @@ const Margin = styled.div`
     border: 0px solid black;
 `;
 
-const Block = styled.div`
-    position: absolute;
-    width: 100%;
-    left: 0;
-
-    height: 100vh;
-
-    img {
-        height: 100%;
-        position: absolute;
-        left: 0;
-        top: 0;
-
-        object-fit: cover;
-
-        mix-blend-mode: overlay;
-    }
-`;
-
 const Text = styled.div`
     position: relative;
     margin: 0 20px;
@@ -96,6 +74,10 @@ const Text = styled.div`
     p,
     h4 {
         z-index: 1;
+    }
+
+    a {
+        display: inline-block;
     }
 `;
 

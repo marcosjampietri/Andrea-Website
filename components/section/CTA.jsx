@@ -25,6 +25,7 @@ export default CallToAction;
 
 const CallToActionSt = styled.div`
     height: 50vh;
+    min-height: 500px;
     background-image: linear-gradient(
         hsla(345, 100%, 55%, 1),
         hsla(345, 80%, 40%, 1)

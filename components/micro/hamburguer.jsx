@@ -65,6 +65,7 @@ const Box = styled(animated.div)`
     position: relative;
     width: 60px;
     height: 45px;
+    margin: 0 5px;
 
     border: 1px inset hsla(350, 80%, 50%, 1);
     cursor: pointer;

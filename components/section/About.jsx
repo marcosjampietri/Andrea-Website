@@ -21,16 +21,20 @@ export default About;
 const Section = styled.section`
     padding: 10vh 0;
     background-color: white;
+    min-height: 700px;
 `;
 
 const Margin = styled.div`
     margin: 20px auto;
+
     width: 100%;
     max-width: 1200px;
 `;
 
 const Wrapp = styled.div`
     position: relative;
+
+    height: 100%;
     padding: calc(25px + 2.5vw) 0px;
 
     outline: 2px solid hsla(0, 0%, 0%, 0.1);

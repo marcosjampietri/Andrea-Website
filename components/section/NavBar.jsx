@@ -63,6 +63,7 @@ const NavBarSt = styled.div`
     position: fixed;
     width: 100%;
     height: 120px;
+    padding: 0px 20px;
 
     background: hsla(220, 10%, 85%, 0.1);
     z-index: 100;
@@ -71,22 +72,24 @@ const NavBarSt = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-around;
+    ${below.med`
+    justify-content: space-between;
+
+         `};
 
     :hover {
-    transition: 0.2s;
-    background: hsla(220, 10%, 85%, 0.95);
-
+        transition: 0.2s;
+        background: hsla(220, 10%, 85%, 0.95);
     }
 `;
 
 const Logo = styled.img`
     width: 70px;
     height: 70px;
-    justify-self: flex-end;
-    background: transparent;
-    margin-left: 40px;
-    border: none;
+    margin-top: 25px;
 
+    background: transparent;
+    border: none;
     filter: drop-shadow(0px 0px 50px hsla(0, 100%, 100%, 0.7));
 `;
 

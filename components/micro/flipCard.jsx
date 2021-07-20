@@ -15,9 +15,6 @@ import {
 } from "react-icons/fi";
 
 const CardRow = () => {
-    {
-        /* FIELDS YOU WORK WITH */
-    }
     const cards = [
         {
             name: "FASHION AND MODELING",
@@ -84,11 +81,11 @@ const CardRow = () => {
                     <Card key={index}>
                         <Front className="front">
                             <Text>
-                            <Icon>
-                                <div>
-                                    <div>{card.icon}</div>
-                                </div>
-                            </Icon>
+                                <Icon>
+                                    <div>
+                                        <div>{card.icon}</div>
+                                    </div>
+                                </Icon>
                             </Text>
                             <div>
                                 <h4>{card.name}</h4>
@@ -129,7 +126,7 @@ const Card = styled.div`
     max-width: 450px;
 
     height: 300px;
-    margin: 1vw;
+    margin: 1vw 50px;
 
     flex-grow: 1;
     flex-shrink: 1;
@@ -148,10 +145,7 @@ const Card = styled.div`
     position: relative;
 `;
 
-const Text = styled.div`
-
-
-`;
+const Text = styled.div``;
 const Face = styled.div`
     position: absolute;
     top: 0;
@@ -169,18 +163,16 @@ const Face = styled.div`
 const Front = styled(Face)`
     background: hsla(350, 95%, 0%, 1);
     transform: rotateY(0deg);
-    div
-        h4 {
-            padding: 20px 0px;
-            text-align: center;
+    div h4 {
+        padding: 20px 0px;
+        text-align: center;
 
-            color: hsla(350, 80%, 100%, 1);
-
+        color: hsla(350, 80%, 100%, 1);
     }
 `;
 const Icon = styled.div`
     width: 100%;
-padding: 20px 0px;
+    padding: 20px 0px;
     display: flex;
     justify-content: center;
 
@@ -201,25 +193,23 @@ padding: 20px 0px;
     }
 `;
 
-
 const Img = styled.div`
     position: relative;
-        bottom: 0;
+    bottom: 0;
     width: 100%;
     height: 50%;
 
     overflow: hidden;
 
-    .pics{
+    .pics {
         position: absolute;
         left: 0;
-    object-fit: cover;
+        object-fit: cover;
 
         object-position: center center;
         border-radius: 0px 0px 5px 5px;
     }
 `;
-
 
 const Back = styled(Face)`
     background: hsla(350, 80%, 50%, 1);

@@ -18,61 +18,56 @@ const CardRow = () => {
   const cards = [
     {
       name: "FASHION AND MODELING",
-      image:
-        "https://images.unsplash.com/photo-1522991150037-09a660b94ba4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3300&q=80",
+      image: "/modeling.jpg",
       icon: <FiActivity />,
       path: "services/influencer",
       text: "If you're a model, influencer or an Artist, I have a broad set of skills and tools to make you're image stand out from your competitors from Photo Shooting for social media to Personal branding ",
     },
     {
       name: "BUSINESSES SOLUTIONS",
-      image:
-        "https://images.unsplash.com/photo-1567721913486-6585f069b332?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3334&q=80",
+      image: "/business.jpg",
       icon: <FiAlertCircle />,
       path: "services/coorporative",
       text: "lorem ipsum vbsl vbsldgsdg lorem ipsum vbsldgsdg sl vbsldgsdg lorem ipsum vbsld um vbsl vbsldgsdg lorem ipsum vbsldgsdg sl vbsldg",
     },
     {
       name: "EVENTS",
-      image:
-        "https://images.unsplash.com/photo-1574391884720-bbc3740c59d1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80",
+      image: "/events.jpg",
       icon: <FiCamera />,
       path: "services/events",
       text: "lorem ipsum vbsl vbsldgsdg lorem ipsum vbsldgsdg sl vbsldgsdg lorem ipsum vbsld um vbsl vbsldgsdg lorem ipsum vbsldgsdg sl vbsldg",
     },
     {
-      name: "WEDDINGS",
-      image:
-        "https://images.unsplash.com/photo-1541250848049-b4f7141dca3f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3334&q=80",
+      name: "PARTIES",
+      image: "/parties.jpg",
       icon: <FiVoicemail />,
       path: "services/events",
       text: "lorem ipsum vbsl vbsldgsdg lorem ipsum vbsldgsdg sl vbsldgsdg lorem ipsum vbsld um vbsl vbsldgsdg lorem ipsum vbsldgsdg sl vbsldg",
     },
     {
       name: "DIVING AND SWIMMING",
-      image:
-        "https://images.unsplash.com/photo-1564381564020-17161124fff1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=975&q=80",
+      image: "/diving.jpg",
       icon: <FiCode />,
       path: "services/events",
       text: "lorem ipsum vbsl vbsldgsdg lorem ipsum vbsldgsdg sl vbsldgsdg lorem ipsum vbsld um vbsl vbsldgsdg lorem ipsum vbsldgsdg sl vbsldg",
     },
     {
       name: "TRAVELING",
-      image: "",
+      image: "/travel.jpg",
       icon: <FiVideo />,
       path: "services/events",
       text: "lorem ipsum vbsl vbsldgsdg lorem ipsum vbsldgsdg sl vbsldgsdg lorem ipsum vbsld um vbsl vbsldgsdg lorem ipsum vbsldgsdg sl vbsldg",
     },
     {
       name: "SURVIVAL AND BUSHCRAFT",
-      image: "",
+      image: "/survival.jpg",
       icon: <FiPower />,
       path: "services/events",
       text: "lorem ipsum vbsl vbsldgsdg lorem ipsum vbsldgsdg sl vbsldgsdg lorem ipsum vbsld um vbsl vbsldgsdg lorem ipsum vbsldgsdg sl vbsldg",
     },
     {
       name: "NATURE",
-      image: "",
+      image: "/nature.jpg",
       icon: <FiEye />,
       path: "services/events",
       text: "lorem ipsum vbsl vbsldgsdg lorem ipsum vbsldgsdg sl vbsldgsdg lorem ipsum vbsld um vbsl vbsldgsdg lorem ipsum vbsldgsdg sl vbsldg",
@@ -99,8 +94,8 @@ const CardRow = () => {
                 <Image
                   alt="Picture of the author"
                   width={500}
-                  height={200}
-                  src="/shop.jpg"
+                  height={300}
+                  src={card.image}
                   className="pics"
                 />
               </Img>

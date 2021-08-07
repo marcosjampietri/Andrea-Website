@@ -18,7 +18,7 @@ const Photo = () => {
     {
       klass: "inverted",
       title: "VIDEO SHOOTING",
-      text: "Lorem ipsum dolo r sit amet Lorem ipsum dolor sit ametLorem ipsum ipsum dolor sit amet Lorem ipsum dolorsitamet Lorem ipsum dolor sit amet",
+      text: "I'm great at video shooting. contact me.",
       path: "/video.jpg",
     },
     {

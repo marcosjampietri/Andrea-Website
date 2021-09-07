@@ -12,7 +12,6 @@ const Services = () => {
         <Layout>
             <Page>
                 <FilterServ />
-                <TitleSec />
                 <Photo />
                 <CalltoAction />
             </Page>

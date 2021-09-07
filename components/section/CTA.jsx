@@ -5,12 +5,12 @@ import Btn12 from "../micro/btn12W";
 const CallToAction = () => {
     return (
         <CallToActionSt>
-            <h2>SO YOU'RE INTERESTED IN MY SERVICES...</h2>
+            <h2>SO, IF YOU ARE INTERESTED IN MY SERVICES...</h2>
             <p>
-                I am currently looking for people who is interested in my
-                services for lower rates with a limited ammount of vaccancies.
-                Don't waste time, get in touch with me right now by clicking the
-                button below
+                I currently have a limited amount of vacancies at lower rates
+                for people who are interested in my work. Don't waste your time
+                and get in touch with me right now. Just click on the button
+                below.
             </p>
             <Link href="/contact">
                 <a>

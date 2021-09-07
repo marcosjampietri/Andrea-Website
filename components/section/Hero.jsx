@@ -16,10 +16,8 @@ const Hero = () => {
                         <Pre>I AM</Pre>
                         <Name>ANDREA MANGIACAVALLO</Name>
                         <Post>
-                            Visual Media Content Creator Based in London, Making
-                            Photography, Video and Visual Content in the
-                            Advanture, Fashion Industry and Everything in
-                            Between
+                            I DESIGN DIGITAL PRODUCTS THAT HELP BUSINESSES GROW,
+                            TELL YOUR STORY AND BUILD UP YOUR IMAGE.
                         </Post>
                         <Link href="/contact">
                             <BtnWrp>

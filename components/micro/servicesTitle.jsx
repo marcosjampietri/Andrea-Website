@@ -10,16 +10,16 @@ const TileSec = () => {
         <Reveal>
             <Block>
                 <Text>
-                    <Pre>WHAT CAN WE WORK TOGETHER WITH</Pre>
+                    <Pre>WHAT CAN WE WORK ON TOGETHER</Pre>
                     <Title>
-                        I DESIGN DIGITAL PRODUCTS THAT HELP GROW BUSINESSES,
+                        I DESIGN DIGITAL PRODUCTS THAT HELP BUSINESSES GROW,
                         TELL YOUR STORY AND BUILD UP YOUR IMAGE.
                     </Title>
                     <Definition>
-                        I'm committed to providing our customers with
-                        exceptional service while offering you the best
-                        experience. Check a brief list of services I can provide
-                        you.
+                        I'm committed to provide my customers with an
+                        exceptional and personalised service, while offering you
+                        the best professional experience. Check a brief list of
+                        the services I can provide you.
                     </Definition>
                 </Text>
             </Block>
@@ -78,5 +78,5 @@ const Definition = styled.p`
     line-height: clamp(12px, 2.2vw, 30px);
     letter-spacing: clamp(0px, 0.1vw, 2px);
 
-    color: hsla(220, 0%, 35%, 1);
+    color: hsla(220, 0%, 95%, 1);
 `;
